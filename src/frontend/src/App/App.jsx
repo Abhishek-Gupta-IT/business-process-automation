@@ -17,7 +17,7 @@ const theme = {
     }),
     Label : ({ colorScheme }) => ({
       // `brand` contains all design tokens for the `brand` color
-      color: "rgb(0, 120, 212)",
+      color: "rgb(48, 0, 111)",
       backgroundColor: colorScheme.default.background,
       fontSize: "20px",
       height: "50px"
