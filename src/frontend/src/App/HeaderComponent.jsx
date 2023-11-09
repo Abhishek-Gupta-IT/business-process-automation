@@ -4,7 +4,7 @@ import { Text } from '@fluentui/react-northstar'
 const HeaderComponent = (props) => {
     
     return (
-        <div style={{backgroundColor: "rgb(0, 120, 212)", color: "white", padding: "10px" }}>
+        <div style={{backgroundColor: "rgb(48, 0, 111)", color: "white", padding: "10px" }}>
             <Text size="large" content="Business Process Automation Accelerator" />
             {/* <Header content='Business Process Automation Accelerator' className="header" style={{ fontSize: "20px", color: "white", backgroundColor: "rgb(0, 120, 212)" }} /> */}
             </div>
