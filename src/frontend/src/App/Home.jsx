@@ -30,14 +30,12 @@ export default function Home(props) {
         <div style={{ paddingLeft: "0px", paddingTop: "50px" }}>
             <Text weight="semibold" style={{ fontSize: "25px", display: "block", marginBottom: "20px" }}>Welcome to the Business Process Automation Accelerator</Text>
             <Text style={{ display: "block", marginBottom: "10px" }}>
-                Build multi-stage AI/ML pipelines across Azure AI and ML Services using pretrained, or your own custom/open source models in our Cognitive Services Studio (<span><a href="https://github.com/Azure/business-process-automation">Learn More</a></span>). Create a new pipeline by selecting “Configure a New Pipeline” below. After the input file type is selected, new Services will appear within your pipeline builder from (Azure Language, Form Recognizer, Speech, etc..), based on the file type (e.g. audio files). As files are transformed or converted, from images or audio to text, new Services will become available to be added to the pipeline builder. For example, Language Services options for data that has been transformed to text.
+                Cotiviti BPA Application for Azure AI and OCR services empowers you to create sophisticated AI/ML pipelines by leveraging the power of Azure's AI and OCR capabilities. With Azure AI, you can tap into a range of pre-trained models and services to enhance your pipeline's performance. Create a new pipeline by selecting “Configure a New Pipeline” below. After the input file type is selected, new Services will appear within your pipeline builder from (Azure Language, Form Recognizer, Speech, etc..), based on the file type (e.g. audio files). As files are transformed or converted, from images or audio to text, new Services will become available to be added to the pipeline builder. For example, Language Services options for data that has been transformed to text.
             </Text>
             <Text style={{ display: "block", marginBottom: "10px" }}>
-                As you start to build longer pipelines, with multiple transformations, you can optionally continue building the pipeline against data in an earlier stage within the pipeline, with the “Change Output” card.
+                Azure AI offers a comprehensive suite of services, including Azure Language, Form Recognizer, Speech, and more. These services enable you to process and analyze various types of data, such as text, images, and audio, within your pipeline. For example, Azure Language services can help you perform language detection, sentiment analysis, and text translation. Form Recognizer allows you to extract structured data from forms and documents. Speech services facilitate speech recognition and text-to-speech conversion.
             </Text>
-            <Text style={{ display: "block", marginBottom: "40px" }}>
-                Once the pipeline is built, a cost estimate can be generated. And the pipeline can will be triggered once documents are uploaded.
-            </Text>
+
 
 
             <Text weight="semibold" style={{ fontSize: "18px", display: "block", marginBottom: "20px" }}>What would you like to do?</Text>
