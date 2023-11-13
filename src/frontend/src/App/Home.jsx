@@ -28,7 +28,7 @@ export default function Home(props) {
 
     return (
         <div style={{ paddingLeft: "0px", paddingTop: "50px" }}>
-            <Text weight="semibold" style={{ fontSize: "25px", display: "block", marginBottom: "20px" }}>Welcome to the Business Process Automation Accelerator</Text>
+            <Text weight="semibold" style={{ fontSize: "25px", display: "block", marginBottom: "20px" }}>Welcome to the App "CHAT WITH DATA" </Text>
             <Text style={{ display: "block", marginBottom: "10px" }}>
                 Cotiviti BPA Application for Azure AI and OCR services empowers you to create sophisticated AI/ML pipelines by leveraging the power of Azure's AI and OCR capabilities. With Azure AI, you can tap into a range of pre-trained models and services to enhance your pipeline's performance. Create a new pipeline by selecting “Configure a New Pipeline” below. After the input file type is selected, new Services will appear within your pipeline builder from (Azure Language, Form Recognizer, Speech, etc..), based on the file type (e.g. audio files). As files are transformed or converted, from images or audio to text, new Services will become available to be added to the pipeline builder. For example, Language Services options for data that has been transformed to text.
             </Text>
